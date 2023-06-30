@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using  namespace std;
 
 int main(){
@@ -24,6 +25,6 @@ int main(){
     }
 
     cout << "Press Enter to exit";
-    getchar();
+    _getch();
     return 0;
 }
